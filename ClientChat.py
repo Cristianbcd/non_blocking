@@ -3,8 +3,8 @@
 import socket
 import threading
 
-HOST = '127.0.0.1'  # The server's hostname or IP address
-PORT = 7        # The port used by the server
+HOST = '2.tcp.ngrok.io'  # The server's hostname or IP address
+PORT = 15425        # The port used by the server
 
 client = socket.socket()
 client.connect((HOST, PORT))
